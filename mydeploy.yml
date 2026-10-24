@@ -21,5 +21,6 @@ spec:
       containers:
         - name: myjavaapp
           image: 938565868582.dkr.ecr.us-east-2.amazonaws.com/myjavaapp:1
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
