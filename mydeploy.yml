@@ -15,9 +15,7 @@ spec:
       labels:
         app: myapp
     spec:
-      template:
-        spec:
-          imagePullSecrets:
+      imagePullSecrets:
             - ecr-secert
       containers:
         - name: myjavaapp
