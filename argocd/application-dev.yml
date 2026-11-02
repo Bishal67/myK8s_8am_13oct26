@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: https://github.com/maha4dsvc/myK8s_8am_13oct26.git
     targetRevision: main            # branch to watch
-    path: helm/myjavaapp            # folder with Chart.yaml
+    path: helm/myjavaaap            # folder with Chart.yaml
     helm:
       releaseName: booking-dev      # keeps object names booking-dev-myjavaapp
       valueFiles:
