@@ -184,7 +184,7 @@ Prod pulls the private ECR image, so the pull secret must exist first (ECR passw
 ```bash
 kubectl create namespace production
 kubectl create secret docker-registry ecr-secret -n production \
-  --docker-server=992558785875.dkr.ecr.us-east-2.amazonaws.com \
+  --docker-server=938565868582.dkr.ecr.us-east-2.amazonaws.com \
   --docker-username=AWS \
   --docker-password=$(aws ecr get-login-password --region us-east-2)
 ```
