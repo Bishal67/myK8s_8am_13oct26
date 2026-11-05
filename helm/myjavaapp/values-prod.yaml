@@ -6,7 +6,7 @@ replicaCount: 3
 
 image:
   repository: 938565868582.dkr.ecr.us-east-2.amazonaws.com/myjavaapp
-  tag: "1"
+  tag: "2"
   pullPolicy: Always
 
 imagePullSecrets:
